@@ -412,6 +412,15 @@ p.large_2 {
 	color: #898989;
 }
 
+p.large3 {
+	font-weight: 500;
+	font-size: 20px;
+	color: #898989;
+	margin: 0 0 10px 0;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
 button,
 input,
 select,
