@@ -61,6 +61,20 @@
 		3. BASIC
 	-------------------------------------------------------------------*/
 
+.video-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.video-container iframe {
+  
+  width: 900px;
+  height: 505px;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -417,8 +431,7 @@ p.large3 {
 	font-size: 20px;
 	color: #898989;
 	margin: 0 0 10px 0;
-	margin-left: 150px;
-	margin-right: 150px;
+	text-align: center;
 }
 
 button,
@@ -782,13 +795,14 @@ hr.dottad_border {
 	margin-bottom: 65px;
 }
 
+/*Color de linea azul*/
 .main_heading::after {
 	content: "";
 	display: block;
 	margin: 20px auto 0;
-	width: 80px;
+	width: 140px;
 	height: 5px;
-	background: #17a5e9;
+	background: #D12D74;
 }
 
 .main_heading.text_align_left::after {
@@ -1094,6 +1108,7 @@ header .right_bt .btn {
 	float: right;
 }
 
+/*Color de texto del menu*/
 #navbar_menu>ul>li>a {
 	padding: 15px 18px;
 	font-size: 14px;
@@ -2733,7 +2748,7 @@ span.skill {
 
 .recent_post li {
 	margin-bottom: 20PX;
-}
+color menu}
 
 .categary {
 	font-size: 15px;
@@ -2757,10 +2772,11 @@ span.skill {
 	font-size: 14px;
 }
 
+/*Color de menu creador*/
 .categary li:hover,
 .categary li:focus {
 	padding-left: 30px;
-	background: #F6E1E7;
+	background: #603F38;
 }
 
 .categary li:hover a,
@@ -3502,9 +3518,10 @@ footer ul.social_icons {
 	background-position: right;
 }
 
+/*Color de imagenes*/
 .gross_layout::before {
 	position: absolute;
-	background: rgba(10, 139, 199, 0.8);
+	/*background: rgba(10, 139, 199, 0.8);*/
 	width: 35%;
 	height: 100%;
 	right: 0;
@@ -3529,7 +3546,7 @@ footer ul.social_icons {
 
 .gross_layout.right_gross_layout::before {
 	position: absolute;
-	background: rgba(10, 139, 199, 0.8);
+	/*background: rgba(10, 139, 199, 0.8);*/
 	width: 35%;
 	height: 100%;
 	left: 0;

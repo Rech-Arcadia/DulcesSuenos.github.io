@@ -34,7 +34,7 @@ a.btn.dark_gray_bt:focus,
 /*Color de login*/
 
 .icon_feature {
-	background: #039ee3;
+	background: #F6E1E7;
     background-size: 100% 100%;
     border: none;
 }
@@ -42,6 +42,8 @@ a.btn.dark_gray_bt:focus,
 .theme_bg {
 	background: #039ee3;
 }
+
+/*Color de menu selección*/
 
 #navbar_menu > ul > li a.active,
 #navbar_menu > ul > li:hover > a,
@@ -52,12 +54,13 @@ footer p a:hover,footer p a:focus,
 footer ul.social_icons li a:hover,
 footer ul.social_icons li a:focus,
 .breadcrumb li a {
-    color: #039ee3;
+    color: #D12D74;
 }
 
+/*Color de menu CONTACTAR*/
 .btn.sqaure_bt {
     border-radius: 0;
-    background: #039ee3;
+    background: #D12D74;
 }
 
 .btn.sqaure_bt span {
@@ -67,10 +70,11 @@ footer ul.social_icons li a:focus,
     right: 16px;
 }
 
+/*Fondo de Copyright*/
 footer h2::after,
 .footer_mail-section .field button.button_custom,
 .cprt,.contact_us_section {
-	background: #039ee3;
+	background: #D12D74;
 }
 
 /*Color del recuadro azul*/
